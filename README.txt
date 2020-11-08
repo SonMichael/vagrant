@@ -1,4 +1,17 @@
+================== Kết quả ================== 
+
+- Centos 7
+- Php 7
+- Php-fpm
+- Mysql 5.7
+- 2 user root và vagrant
+- Nginx
+- Vim, composer, bower, git, ... và 1 số cáo service cần thiết 
+================Thực Hiện============================= 
+
 - Đảm bảo virtualbox được install success
+- Thay đổi các config trong vagrant/config/vagrant-local.example.yml và xóa file vagrant-local.yml
+- Thay đổi thư mục mount trong Vagrant-file dòng: config.vm.synced_folder '~/code/bitbuget/run-vagrant/', '/app', owner: 'vagrant', group: 'vagrant'
 - ping ip public xem có ai sử dụng ko 
 - cài plugin 
  + vagrant plugin install vagrant-vbguest
