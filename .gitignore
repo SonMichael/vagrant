@@ -1,0 +1,17 @@
+.DS_STORE
+*.log
+*.lock
+node_modules
+dist
+coverage
+.idea/
+.yarn-cache
+package-lock.json
+web/*
+!web/.keep
+web_bk_*
+.vscode/
+homebrew/
+.gitkeep
+
+.vagrant

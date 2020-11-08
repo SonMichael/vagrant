@@ -1,0 +1,34 @@
+# Your personal GitHub token
+github_token: 273bd6d010402932b0f933d1bda50d3d91e10dad
+# Read more: https://github.com/blog/1509-personal-api-tokens
+# You can generate it here: https://github.com/settings/tokens
+
+# Guest OS timezone
+timezone: Asia/Ho_Chi_Minh
+locale: en_US.utf8
+
+# Are we need check box updates for every 'vagrant up'?
+box_check_update: false
+
+# Virtual machine name
+machine_name: vagrantcentos7
+
+# Virtual machine IP
+private_ip: 192.168.33.33
+public_ip: 192.168.4.50
+
+# Virtual machine CPU cores number
+cpus: 2 
+
+# Virtual machine RAM
+memory: 2048
+
+# mysql 
+mysql_root_pass: abc123@X
+mysql_db_name: kynaforkids
+
+domains: {
+  api: 'api.kynaforkids.local',
+  backend: 'admin.kynaforkids.local',
+  media: 'media.kynaforkids.local',
+}
